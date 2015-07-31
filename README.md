@@ -17,9 +17,9 @@
 - User fills out inputs with following fields
   - name
   - title
-  - chart type
+  - chart type (make sure input is one of the three)
   - labels (separated by comma)
-  - data (separated by comma)
+  - data (separated by comma, make sure length matches labels length, or labels is 0 in length)
 - Button: Verify/Submit to create Chart
 -Scroll/click to load additional charts created by others
 
@@ -29,7 +29,7 @@
   - Getting info from users, binding to variables using jQuery (Make sure you coordinate with us to make sure youre using same variable names)
     - Converting strings from label/data to arrays
     - Make sure that labels match data lengths (or that labels are 0)
-      - Create a warning that shows if data/label lengths are not the same.
+      - Create a warning and do not allow button to be pressed that shows if data/label lengths are not the same.
   -
 ###Lauren
   - Initialize/Sign up for Parse and setup database to receive all the types of data
