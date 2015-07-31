@@ -20,29 +20,8 @@
   - chart type
   - labels (separated by comma)
   - data (separated by comma)
-
-- Press a button to create a chart
-- Prompt(chart-type) with type of chart they want to create (Bar, Line, Pie)
-- Prompt (label): with labels of the data they want to create
-  - Separated by weird character no-one would ever use.
-- Prompt (data): with labels of the data they want to create
-  - Separated by commas or spaces, checks length against labels
-- Prompt (title): title of the chart.
-- Prompt (name): get their name
 - Button: Verify/Submit to create Chart
-
-
-##V1 Code:
-1. Have blank spans/p with place holder text for each of the prompts
-2. When user fills out the prompt
-  - Check if prompt matches formatting
-  - Check if prompt matches type
-  - Split *label* and *data* by comma or space to create array of values
-3. Verify/Submit. on click:
-  - Replace data with *data* gathered from user
-  - create new Chart object and show it onto canvas
-  - Hide all of the previous stuff
-
+-Scroll/click to load additional charts created by others
 
 #Work Split
 ###Thomas:
@@ -55,7 +34,7 @@
 ###Loren
   - Initialize Parse and setup database to receive all the types of data
   - When submit button is pressed, create Parse object and send the user submitted data
-  - When scrolled to bottom of page (or pressed button) query X most recent charts
+  - When scrolled to bottom of page (or pressed button) query X most recent chartsI
   -
 
 ###Alan
