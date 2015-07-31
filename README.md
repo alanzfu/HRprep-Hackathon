@@ -31,8 +31,8 @@
     - Make sure that labels match data lengths (or that labels are 0)
       - Create a warning that shows if data/label lengths are not the same.
   -
-###Loren
-  - Initialize Parse and setup database to receive all the types of data
+###Lauren
+  - Initialize/Sign up for Parse and setup database to receive all the types of data
   - When submit button is pressed, create Parse object and send the user submitted data
   - When scrolled to bottom of page (or pressed button) query X most recent chartsI
   -
