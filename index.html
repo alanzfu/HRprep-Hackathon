@@ -4,17 +4,55 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <title>Shart</title>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,700' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-sm-4 thomas">
-          test<!-- Thomas inputs/forms/buttons in here -->
+
+        <div class="col-sm-4">
+          <div class = "row border interior">
+            <h3 class="center">Search</h3>
+            <textarea id="search" placeholder="Search for Graph by UserName" class="draft" rows="1" type="text"></textarea>
+            <ul class id="search-results">
+
+            </ul>
+            <button id="search-button">Search</button>
+          </div>
+          <div class ="border">
+
+            <div class= "row interior">
+              <div class="col-sm-12">
+                <h3 class="center">Create</h3>
+                <textarea id="name" placeholder="Your Name" class="draft" rows="1" type="text"></textarea>
+                <textarea id="title" placeholder="Chart Title" class="draft" rows="1" type="text"></textarea>
+                <textarea id="type" placeholder="Bar or Line" class="draft" rows="1" type="text"></textarea>
+                <p class="warning" id ="type-warning">Please enter a valid type (e.g. Bar,Line,Graph)</p>
+                <textarea id="labels" placeholder="Label names should be separated by commas (mon,tue,wed)" class="draft" rows="2" type="text"></textarea>
+                <textarea id="data" placeholder="Values should be separated by commas and match # labels (e.g. 1,2,3)" class="draft" rows="2" type="text"></textarea>
+                <p class="warning" id="data-warning">Please check the number of data points you have vs. Number of labels you have.</p>
+              </div>
+            </div>
+
+
+            <div class="row interior">
+              <div class="col-sm-12">
+                <button id="submit">Create Chart</button>
+                <p class="success">Success!</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
         </div>
 
-        <div class="col-sm-7 alan">
-          test<!--Alan charts here -->
+
+        <div class="col-sm-7 border">
         </div>
 
       </div>
@@ -24,8 +62,9 @@
 
 
 
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="ParseURL">//Lauren need to post url here when creating DB</script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://www.parsecdn.com/js/parse-1.5.0.min.js"></script>
+    <script>Parse.initialize("L5uiWt05sB0Wt7MEBIORG64Dy0lsb1NaRX8q0OZM", "1BQwsBSx7M9El24RJDdg6Fka3ZCuxyX5pzQOfzZ2");</script>
     <script src="js/app.js"></script>
     <script src="js/Chart.min.js"></script>
   </body>

@@ -30,7 +30,7 @@
     - Converting strings from label/data to arrays
     - Make sure that labels match data lengths (or that labels are 0)
       - Create a warning and do not allow button to be pressed that shows if data/label lengths are not the same.
-  -
+
 ###Lauren
   - Initialize/Sign up for Parse and setup database to receive all the types of data
   - When submit button is pressed, create Parse object and send the user submitted data
