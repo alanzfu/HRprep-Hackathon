@@ -1,11 +1,25 @@
 #Create a chart with Chart.js without using Javascript!
 
-###Objectives:
+##How to use:
+###1. Search for any existing chart by Author name
+  - Start typing and you'll see names pop up
+  - Click on the name, and then the search button, and charts created by that user will appear!
+  - Searching for a chart will stop any new charts that other users are creating from popping up.
+
+###2. Create:
+  - Create a line or a bar chart!
+  - Work your way down the labels and hit submit. Then your chart will appear!
+
+###3. Look:
+  - Discover charts made by other people using Charts!
+  - These charts are stored and queried using Parse
+
 ####Versions
-- **V1**: Display charts of User prompted data through prompts on clicks of buttons
+- **V1**: Display charts of User prompted gathered through textareas
 - **V1.5**: CSS Styling
 - **V2**: User will use inputs to gather data and edit inputs to change
 - **V3**: Push chart data object to Parse on verify/submit, and load previous charts created
+- **V4**: Search function with suggested searches
 
 ###Languages and Tools:
 - HTML/CSS/Bootstrap
@@ -13,23 +27,14 @@
 - Chart.js
 - Parse
 
-##V1 User Interaction:
-- User fills out inputs with following fields
-  - name
-  - title
-  - chart type (make sure input is one of the three)
-  - labels (separated by comma)
-  - data (separated by comma, make sure length matches labels length, or labels is 0 in length)
-- Button: Verify/Submit to create Chart
--Scroll/click to load additional charts created by others
 
 #Coding Approach
 1. User input binding
-  - Setup info area in a <form></form>
-  - Getting info from users, binding to variables using jQuery (Make sure you coordinate with us to make sure youre using same variable names)
+  - Setup info area in a div
+  - Getting info from users, binding to variables using jQuery
     - Converting strings from label/data to arrays
     - Make sure that labels match data lengths (or that labels are 0)
-      - Create a warning and do not allow button to be pressed that shows if data/label lengths are not the same.
+      - Create a warning and do not allow submit button to be pressed that shows if data/label lengths are not the same.
 
 2. Parse
   - Initialize/Sign up for Parse and setup database to receive all the types of data
