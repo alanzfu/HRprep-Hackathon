@@ -1,4 +1,5 @@
 #Create a chart with Chart.js without using Javascript!
+Originally an idea for the halfway hackathon at HRPrep, but decided to take it on Solo to submit as part of my sample code for my application.
 
 ##How to use:
 ###1. Search for any existing chart by Author name
