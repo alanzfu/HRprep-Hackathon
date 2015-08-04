@@ -2,14 +2,15 @@
 Originally an idea for the halfway hackathon at HRPrep, but decided to take it on Solo to submit as part of my sample code for my application.
 
 ##How to use:
-###1. Search for any existing chart by Author name
+###1. Create:
+  - Create a line or a bar chart!
+  - Work your way down the labels and hit submit. Then your chart will appear!
+
+
+###2. Search for any existing chart by Author name
   - Start typing and you'll see names pop up
   - Click on the name, and then the search button, and charts created by that user will appear!
   - Searching for a chart will stop any new charts that other users are creating from popping up.
-
-###2. Create:
-  - Create a line or a bar chart!
-  - Work your way down the labels and hit submit. Then your chart will appear!
 
 ###3. Look:
   - Discover charts made by other people using Charts!
